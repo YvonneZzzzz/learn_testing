@@ -1,0 +1,6 @@
+*** Settings ***
+Resource          ../CustomLibrary/runbat.py
+
+*** Test Cases ***
+runallbat
+    #执行bat

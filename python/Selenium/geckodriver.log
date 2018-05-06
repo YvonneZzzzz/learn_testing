@@ -1,0 +1,875 @@
+1498559200727	geckodriver	INFO	Listening on 127.0.0.1:54406
+1498559202750	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.dSPHrFaewxrz
+1498559202767	geckodriver::marionette	INFO	Starting browser F:\Mozilla Firefox\firefox.exe
+1498559266198	geckodriver	INFO	Listening on 127.0.0.1:54767
+1498559268225	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.JK4u53E3YUT3
+1498559268251	geckodriver::marionette	INFO	Starting browser E:\Mozilla Firefox\firefox.exe
+1498559268300	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54784
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498559271826	Marionette	INFO	Listening on port 54784
+[GPU 11552] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498559271913	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 11552] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 11552] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 33772] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 33772] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+00000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 31832] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 31832] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1498559495293	geckodriver	INFO	Listening on 127.0.0.1:56058
+1498559497318	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.4ezBELtaY6aQ
+1498559497340	geckodriver::marionette	INFO	Starting browser E:\Mozilla Firefox\firefox.exe
+1498559497399	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56075
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498559499946	Marionette	INFO	Listening on port 56075
+[GPU 9268] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498559500526	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 9268] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 9268] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 39332] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 39332] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+46
+1498559555123	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 51ms; unable to cache asm.js in synchronous scripts; try loading asm.js via <script async> or createElement('script'))
+[GPU 34132] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: 
+  Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/memoryActor12
+[GPU 34132] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 35924] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 34132] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1498560891747	geckodriver	INFO	Listening on 127.0.0.1:54160
+1498560893756	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.6an79S0yYTB0
+1498560893771	geckodriver::marionette	INFO	Starting browser E:\Mozilla Firefox\firefox.exe
+1498560893800	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54176
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498560896059	Marionette	INFO	Listening on port 54176
+[GPU 20956] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498560896916	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 20956] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 20956] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10836] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+57045
+1498561393299	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.erAz96gV8wQK
+1498561393311	geckodriver::marionette	INFO	Starting browser :\Mozilla Firefox\firefox.exe
+1498561429395	geckodriver	INFO	Listening on 127.0.0.1:57251
+1498561431435	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.FZj773z6UX16
+1498561431457	geckodriver::marionette	INFO	Starting browser :\Mozilla Firefox\firefox.exe
+1498561442070	geckodriver	INFO	Listening on 127.0.0.1:57323
+1498561444101	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.LEZQr5WpqAMT
+1498561444122	geckodriver::marionette	INFO	Starting browser :\Mozilla Firefox\firefox.exe
+1498561543524	geckodriver	INFO	Listening on 127.0.0.1:57942
+1498561545542	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.ojQ4f3vP5MyC
+1498561545563	geckodriver::marionette	INFO	Starting browser E:\Mozilla Firefox\firefox.exe
+1498561545609	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57963
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498561547897	Marionette	INFO	Listening on port 57963
+[GPU 30776] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498561548721	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 75: TypeError: this._recipeManager is null
+[GPU 30776] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 30776] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+0
+1498561580312	Marionette	INFO	Listening on port 58193
+1498561581244	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 16544] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 16544] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498561645692	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1498561645695	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 35292] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 35292] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1498561845441	geckodriver	INFO	Listening on 127.0.0.1:59801
+1498561847468	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.jtx93GATfgPs
+1498561847489	geckodriver::marionette	INFO	Starting browser E:\Mozilla Firefox\firefox.exe
+1498561847535	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59818
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498561849745	Marionette	INFO	Listening on port 59818
+[GPU 32380] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498561850665	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498561929064	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+[GPU 32380] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 37440] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+s 0.0.0.0 and 0.0.0.0
+1498561873361	Marionette	INFO	Listening on port 59988
+[GPU 31480] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498561874253	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498561952681	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+8561902315	geckodriver::marionette	INFO	Starting browser E:\Mozilla Firefox\firefox.exe
+1498561902337	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60201
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498561904758	Marionette	INFO	Listening on port 60201
+[GPU 20868] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498561905477	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498561984009	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+[GPU 20868] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4064] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4064] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+62
+[GPU 38800] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498562032524	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498562036339	Marionette	INFO	New connections will no longer be accepted
+1498562135186	geckodriver	INFO	Listening on 127.0.0.1:54307
+1498562137215	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.WCNry3TDTtfS
+1498562137236	geckodriver::marionette	INFO	Starting browser E:\Mozilla Firefox\firefox.exe
+1498562137277	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54325
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498562139809	Marionette	INFO	Listening on port 54325
+1498562140393	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 15880] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 38892] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 38892] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+1498562369974	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 38524] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 38524] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21164] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+89
+[GPU 34644] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498562436650	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 75: TypeError: this._recipeManager is null
+[GPU 34644] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 34644] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 34644] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13804] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13804] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1498563293068	geckodriver	INFO	Listening on 127.0.0.1:51992
+1498563295100	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.rxJwpBppq33j
+1498563295121	geckodriver::marionette	INFO	Starting browser E:\Mozilla Firefox\firefox.exe
+1498563295159	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52012
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498563297241	Marionette	INFO	Listening on port 52012
+1498563298295	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 35176] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 35176] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6908] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6908] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+46
+1498563597483	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 31224] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10564] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10564] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+[GPU 38232] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498563622890	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 38232] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 38232] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 34464] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 34464] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+1498563703488	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 11080] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 31612] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 31612] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1498564088098	geckodriver	INFO	Listening on 127.0.0.1:60510
+1498564090125	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.G5bUww90Wc9A
+1498564090148	geckodriver::marionette	INFO	Starting browser E:\Mozilla Firefox\firefox.exe
+1498564090215	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60526
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498564092261	Marionette	INFO	Listening on port 60526
+1498564093334	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 32932] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 32932] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 32932] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 32932] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 32932] WAR[GPU 15488] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 15488] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+DLLs 0.0.0.0 and 0.0.0.0
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498564491230	Marionette	INFO	Listening on port 49647
+[GPU 10760] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498564492108	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 10760] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 10760] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 10760] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1498564591868	geckodriver	INFO	Listening on 127.0.0.1:50254
+1498564593898	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.5V20yr60Ow6B
+1498564593920	geckodriver::marionette	INFO	Starting browser E:\Mozilla Firefox\firefox.exe
+1498564593973	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50270
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498564595986	Marionette	INFO	Listening on port 50270
+1498564597095	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5788] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5788] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Ls 0.0.0.0 and 0.0.0.0
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498564707375	Marionette	INFO	Listening on port 50986
+1498564707902	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 32796] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 39676] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1498564824705	geckodriver	INFO	Listening on 127.0.0.1:51677
+1498564826724	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.gfog87rMId56
+1498564826743	geckodriver::marionette	INFO	Starting browser E:\Mozilla Firefox\firefox.exe
+1498564826782	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51694
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498564829010	Marionette	INFO	Listening on port 51694
+1498564829909	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 30840] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 30840] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 34016] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 34016] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1498566452644	geckodriver	INFO	Listening on 127.0.0.1:52922
+1498566454672	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.8Ju3vYkOa8Jx
+1498566454693	geckodriver::marionette	INFO	Starting browser E:\Mozilla Firefox\firefox.exe
+1498566454727	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52941
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498566457205	Marionette	INFO	Listening on port 52941
+1498566457854	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GPU 40656] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 40656] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 34540] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 34540] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+846857613336_1498566492006&_=1498566492008, line 1: TypeError: jQuery110203213846857613336_1498566492006 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aa&json=1&p=3&sid=1421_21079_17001&req=2&csor=2&pwd=a&cb=jQuery110203213846857613336_1498566492006&_=1498566492009, line 1: TypeError: jQuery110203213846857613336_1498566492006 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaa&json=1&p=3&sid=1421_21079_17001&req=2&csor=3&pwd=aa&cb=jQuery110203213846857613336_1498566492006&_=1498566492010, line 1: TypeError: jQuery110203213846857613336_1498566492006 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaaa&json=1&p=3&sid=1421_21079_17001&req=2&csor=4&pwd=aaa&cb=jQuery110203213846857613336_1498566492006&_=1498566492011, line 1: TypeError: jQuery110203213846857613336_1498566492006 is not a function
+[Child 16412] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+1498566571057	geckodriver	INFO	Listening on 127.0.0.1:53665
+1498566573086	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.fSAV1hE8LLhC
+1498566573108	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498566573163	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53681
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498566574122	Marionette	INFO	Listening on port 53681
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=a&json=1&p=3&sid=1436_21115_18560_17001_22157&req=2&csor=1&cb=jQuery110203381513715808082_1498566575873&_=1498566575875, line 1: TypeError: jQuery110203381513715808082_1498566575873 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aa&json=1&p=3&sid=1436_21115_18560_17001_22157&req=2&csor=2&pwd=a&cb=jQuery110203381513715808082_1498566575873&_=1498566575876, line 1: TypeError: jQuery110203381513715808082_1498566575873 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaa&json=1&p=3&sid=1436_21115_18560_17001_22157&req=2&csor=3&pwd=aa&cb=jQuery110203381513715808082_1498566575873&_=1498566575877, line 1: TypeError: jQuery110203381513715808082_1498566575873 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaaa&json=1&p=3&sid=1436_21115_18560_17001_22157&req=2&csor=4&pwd=aaa&cb=jQuery110203381513715808082_1498566575873&_=1498566575878, line 1: TypeError: jQuery110203381513715808082_1498566575873 is not a function
+[Child 38992] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1498568422969	geckodriver	INFO	Listening on 127.0.0.1:64579
+1498568424988	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.etEhqcr1sGcx
+1498568425010	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498568425055	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64597
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498568425745	Marionette	INFO	Listening on port 64597
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 40320] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1498568439648	geckodriver	INFO	Listening on 127.0.0.1:64736
+1498568441676	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.XbgTqAoE9Tk1
+1498568441698	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498568441749	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64752
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498568442376	Marionette	INFO	Listening on port 64752
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=a&json=1&p=3&sid=1455_21095_17001_20927&req=2&csor=1&cb=jQuery11020904328444478625_1498568444004&_=1498568444006, line 1: TypeError: jQuery11020904328444478625_1498568444004 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aa&json=1&p=3&sid=1455_21095_17001_20927&req=2&csor=2&pwd=a&cb=jQuery11020904328444478625_1498568444004&_=1498568444007, line 1: TypeError: jQuery11020904328444478625_1498568444004 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaaa&json=1&p=3&sid=1455_21095_17001_20927&req=2&csor=4&pwd=aaa&cb=jQuery11020904328444478625_1498568444004&_=1498568444009, line 1: TypeError: jQuery11020904328444478625_1498568444004 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaa&json=1&p=3&sid=1455_21095_17001_20927&req=2&csor=3&pwd=aa&cb=jQuery11020904328444478625_1498568444004&_=1498568444008, line 1: TypeError: jQuery11020904328444478625_1498568444004 is not a function
+[Child 28756] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28756] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498568447804	geckodriver::marionette	ERROR	Failed to kill browser process
+1498621816110	geckodriver	INFO	Listening on 127.0.0.1:62862
+1498621818140	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.N7SHV3SPmWlY
+1498621818160	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498621818194	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62878
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498621819266	Marionette	INFO	Listening on port 62878
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=a&json=1&p=3&sid=1469_21114_21671_22157&req=2&csor=1&cb=jQuery110207069777060924568_1498621820840&_=1498621820842, line 1: TypeError: jQuery110207069777060924568_1498621820840 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaa&json=1&p=3&sid=1469_21114_21671_22157&req=2&csor=3&pwd=aa&cb=jQuery110207069777060924568_1498621820840&_=1498621820844, line 1: TypeError: jQuery110207069777060924568_1498621820840 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aa&json=1&p=3&sid=1469_21114_21671_22157&req=2&csor=2&pwd=a&cb=jQuery110207069777060924568_1498621820840&_=1498621820843, line 1: TypeError: jQuery110207069777060924568_1498621820840 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaaa&json=1&p=3&sid=1469_21114_21671_22157&req=2&csor=4&pwd=aaa&cb=jQuery110207069777060924568_1498621820840&_=1498621820845, line 1: TypeError: jQuery110207069777060924568_1498621820840 is not a function
+[Child 39052] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1498627619247	geckodriver	INFO	Listening on 127.0.0.1:61248
+1498627621262	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.UDc2XW38Rn4z
+1498627621283	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498627621323	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61254
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498627621991	Marionette	INFO	Listening on port 61254
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 30624] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1498629607682	geckodriver	INFO	Listening on 127.0.0.1:60352
+1498629609682	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.aIc44MNv21nn
+1498629609690	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498629609709	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60359
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498629610735	Marionette	INFO	Listening on port 60359
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=a&json=1&p=3&sid=1463_21086_21672_22157&req=2&csor=1&cb=jQuery110203423808049732513_1498629612602&_=1498629612604, line 1: TypeError: jQuery110203423808049732513_1498629612602 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaa&json=1&p=3&sid=1463_21086_21672_22157&req=2&csor=3&pwd=aa&cb=jQuery110203423808049732513_1498629612602&_=1498629612606, line 1: TypeError: jQuery110203423808049732513_1498629612602 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aa&json=1&p=3&sid=1463_21086_21672_22157&req=2&csor=2&pwd=a&cb=jQuery110203423808049732513_1498629612602&_=1498629612605, line 1: TypeError: jQuery110203423808049732513_1498629612602 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaaa&json=1&p=3&sid=1463_21086_21672_22157&req=2&csor=4&pwd=aaa&cb=jQuery110203423808049732513_1498629612602&_=1498629612607, line 1: TypeError: jQuery110203423808049732513_1498629612602 is not a function
+[Child 34696] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498629616376	geckodriver::marionette	ERROR	Failed to kill browser process
+1498630143652	geckodriver	INFO	Listening on 127.0.0.1:51654
+1498630145685	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.wslfvyTcBlJj
+1498630145707	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498630145742	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51660
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498630146803	Marionette	INFO	Listening on port 51660
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 32804] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1498630320138	geckodriver	INFO	Listening on 127.0.0.1:51769
+1498630322155	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.W4ovmioIV5JA
+1498630322173	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498630322206	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51775
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498630323292	Marionette	INFO	Listening on port 51775
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 30156] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 30156] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498630332100	geckodriver	INFO	Listening on 127.0.0.1:51837
+1498630334133	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.lEm2FvE10SuV
+1498630334149	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498630334186	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51843
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498630334805	Marionette	INFO	Listening on port 51843
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=1455_13548_21081_17001_22159&req=2&csor=4&pwd=sel&cb=jQuery110207237092577539262_1498630336402&_=1498630336407, line 1: TypeError: jQuery110207237092577539262_1498630336402 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=1455_13548_21081_17001_22159&req=2&csor=5&pwd=sele&cb=jQuery110207237092577539262_1498630336402&_=1498630336408, line 1: TypeError: jQuery110207237092577539262_1498630336402 is not a function
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+1498630859277	geckodriver	INFO	Listening on 127.0.0.1:52084
+1498630861308	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.UdNSFu6r2ZAy
+1498630861329	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498630861364	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52090
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498630862015	Marionette	INFO	Listening on port 52090
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 40952] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 40952] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498630867200	geckodriver::marionette	ERROR	Failed to kill browser process
+1498630874561	geckodriver	INFO	Listening on 127.0.0.1:52146
+1498630876592	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.FBAJD1kk8qAi
+1498630876607	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498630876636	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52154
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498630877231	Marionette	INFO	Listening on port 52154
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 14492] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1498630942952	geckodriver	INFO	Listening on 127.0.0.1:52224
+1498630944984	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.JgqeGcwwrBps
+1498630945006	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498630945063	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52230
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498630945708	Marionette	INFO	Listening on port 52230
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 37484] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1498700941383	geckodriver	INFO	Listening on 127.0.0.1:56449
+1498700943423	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.pJXUeJ560CVx
+1498700943438	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498700943471	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56465
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498700944554	Marionette	INFO	Listening on port 56465
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E5%93%87%E5%93%88%E5%93%88&json=1&p=3&sid=1437_21079_23633_21673_22074&req=2&csor=3&pwd=%E5%93%87%E5%93%88&cb=jQuery11020876221132362085_1498700946338&_=1498700946342, line 1: TypeError: jQuery11020876221132362085_1498700946338 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E5%93%87&json=1&p=3&sid=1437_21079_23633_21673_22074&req=2&csor=1&cb=jQuery11020876221132362085_1498700946338&_=1498700946340, line 1: TypeError: jQuery11020876221132362085_1498700946338 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E5%93%87%E5%93%88&json=1&p=3&sid=1437_21079_23633_21673_22074&req=2&csor=2&pwd=%E5%93%87&cb=jQuery11020876221132362085_1498700946338&_=1498700946341, line 1: TypeError: jQuery11020876221132362085_1498700946338 is not a function
+[Child 38060] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498701319841	geckodriver	INFO	Listening on 127.0.0.1:58346
+1498701321861	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.S4yi95iDa765
+1498701321884	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498701321943	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58362
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498701322559	Marionette	INFO	Listening on port 58362
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+[Child 35708] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+BeJo4ksW
+1498701478547	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498701478587	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59157
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498701479318	Marionette	INFO	Listening on port 59157
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 35928] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1498702026927	geckodriver	INFO	Listening on 127.0.0.1:61825
+1498702028946	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.so6Gzh1f0Ool
+1498702028960	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498702028987	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61841
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498702029628	Marionette	INFO	Listening on port 61841
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+[Child 33816] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 33816] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1498811306677	geckodriver	INFO	Listening on 127.0.0.1:62565
+1498811308704	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.AyadqUcVTZgd
+1498811308724	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498811308785	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62571
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498811310245	Marionette	INFO	Listening on port 62571
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Child 6808] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1498811421130	geckodriver	INFO	Listening on 127.0.0.1:62639
+1498811423148	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.r2xI3xaWVRtG
+1498811423161	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498811423194	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62646
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498811424310	Marionette	INFO	Listening on port 62646
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Child 30332] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1498812334909	geckodriver	INFO	Listening on 127.0.0.1:64138
+1498812336927	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.9gPSLqgMTu6q
+1498812336941	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1498812336969	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64144
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1498812338098	Marionette	INFO	Listening on port 64144
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: chrome://marionette/content/listener.js, line 999: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+JavaScript error: http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: chrome://marionette/content/listener.js, line 999: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/framework/toolbox.js, line 2059: TypeError: this.closeButton is undefined
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Child 39664] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1499249981376	geckodriver	INFO	Listening on 127.0.0.1:56337
+1499249983380	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.reMLRIsxjhXj
+1499249983397	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1499249983466	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56345
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1499249984810	Marionette	INFO	Listening on port 56345
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 25924] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1499391128890	geckodriver	INFO	Listening on 127.0.0.1:62183
+1499391130824	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.CBIQg0W297zU
+1499391130835	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1499391130861	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62193
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1499391132124	Marionette	INFO	Listening on port 62193
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+console.log: Connection status changed: connecting
+console.log: Connection status changed: connected
+console.log: Connection status changed: disconnected
+[Child 35564] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 35564] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://adbhelperatmozilla.org/adb.js, line 273: TypeError: event.data is undefined
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://adbhelperatmozilla.org/adb-client.js, line 42: RangeError: attempting to construct out-of-bounds TypedArray on ArrayBuffer
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://adbhelperatmozilla.org/adb.js, line 273: TypeError: event.data is undefined
+console.error: PushService: 
+  Failed to drop expired registrations on idle
+  UnknownError
+console.error: 
+  [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIProcess.init]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://adbhelperatmozilla.org/adb.js :: adb_kill :: line 167"  data: no]: adb_kill@resource://gre/modules/commonjs/toolkit/loader.js -> resource://adbhelperatmozilla.org/adb.js:167:5
+ADB.stop@resource://gre/modules/commonjs/toolkit/loader.js -> resource://adbhelperatmozilla.org/adb.js:149:5
+onADBStop@resource://gre/modules/commonjs/toolkit/loader.js -> resource://adbhelperatmozilla.org/main.js:64:3
+emit@resource://devtools/shared/event-emitter.js:191:13
+disable@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webide/modules/runtimes.js:310:5
+_disableScanner@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webide/modules/runtimes.js:187:5
+disable@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webide/modules/runtimes.js:181:7
+exports.AppManager.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webide/modules/app-manager.js:75:5
+UI.destroy@chrome://webide/content/webide.js:134:5
+onUnload@chrome://webide/content/webide.js:66:3
+
+[Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIProcess.init]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://adbhelperatmozilla.org/adb.js :: adb_kill :: line 167"  data: no]: adb_kill@resource://gre/modules/commonjs/toolkit/loader.js -> resource://adbhelperatmozilla.org/adb.js:167:5
+ADB.stop@resource://gre/modules/commonjs/toolkit/loader.js -> resource://adbhelperatmozilla.org/adb.js:149:5
+onADBStop@resource://gre/modules/commonjs/toolkit/loader.js -> resource://adbhelperatmozilla.org/main.js:64:3
+emit@resource://devtools/shared/event-emitter.js:191:13
+disable@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webide/modules/runtimes.js:310:5
+_disableScanner@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webide/modules/runtimes.js:187:5
+disable@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webide/modules/runtimes.js:181:7
+exports.AppManager.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/webiconsole.error: 
+  Could not write session state file 
+  Message: Win error 3 during operation remove on file C:\Users\a\AppData\Local\Temp\rust_mozprofile.tzKYnRHfuwof\sessionstore-backups\recovery.bak (系统找不到指定的路径。
+)
+  
+turned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.isDirectory]
+console.error: 
+  Could not write session state file 
+  Message: Win error 3 during operation remove on file C:\Users\a\AppData\Local\Temp\rust_mozprofile.CBIQg0W297zU\sessionstore-backups\recovery.bak (系统找不到指定的路径。
+)
+  
+ue to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=s&json=1&p=3&sid=1465_21125_20718&req=2&csor=1&cb=jQuery110203784253578869856_1499396807358&_=1499396807360, line 1: TypeError: jQuery110203784253578869856_1499396807358 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=se&json=1&p=3&sid=1465_21125_20718&req=2&csor=2&pwd=s&cb=jQuery110203784253578869856_1499396807358&_=1499396807361, line 1: TypeError: jQuery110203784253578869856_1499396807358 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sel&json=1&p=3&sid=1465_21125_20718&req=2&csor=3&pwd=se&cb=jQuery110203784253578869856_1499396807358&_=1499396807362, line 1: TypeError: jQuery110203784253578869856_1499396807358 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=1465_21125_20718&req=2&csor=4&pwd=sel&cb=jQuery110203784253578869856_1499396807358&_=1499396807363, line 1: TypeError: jQuery110203784253578869856_1499396807358 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=1465_21125_20718&req=2&csor=5&pwd=sele&cb=jQuery110203784253578869856_1499396807358&_=1499396807364, line 1: TypeError: jQuery110203784253578869856_1499396807358 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=1465_21125_20718&req=2&csor=7&pwd=seleni&cb=jQuery110203784253578869856_1499396807358&_=1499396807366, line 1: TypeError: jQuery110203784253578869856_1499396807358 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium&json=1&p=3&sid=1465_21125_20718&req=2&csor=8&pwd=seleniu&cb=jQuery110203784253578869856_1499396807358&_=1499396807367, line 1: TypeError: jQuery110203784253578869856_1499396807358 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=1465_21125_20718&req=2&csor=6&pwd=selen&cb=jQuery110203784253578869856_1499396807358&_=1499396807365, line 1: TypeError: jQuery110203784253578869856_1499396807358 is not a function
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+[Child 27532] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1499841577444	geckodriver	INFO	Listening on 127.0.0.1:50825
+1499841579457	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.UWNCoKYmLJu1
+1499841579479	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1499841579497	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50835
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1499841580161	Marionette	INFO	Listening on port 50835
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 37144] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 37144] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1499842061530	geckodriver	INFO	Listening on 127.0.0.1:52039
+1499842063510	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.q6upYjb4KgkK
+1499842063517	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1499842063536	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52049
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1499842064691	Marionette	INFO	Listening on port 52049
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+[Child 10184] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+tQNjm4CI
+1499842082130	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1499842082148	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52109
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1499842083374	Marionette	INFO	Listening on port 52109
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 28228] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28228] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1499842209781	geckodriver	INFO	Listening on 127.0.0.1:52397
+1499842211786	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.QKvPWKJZ8T6o
+1499842211792	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1499842211811	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52409
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1499842213101	Marionette	INFO	Listening on port 52409
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1499997252666	geckodriver	INFO	Listening on 127.0.0.1:56202
+1499997254678	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.BLNxBMFfW9pS
+1499997254700	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1499997254756	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56209
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1499997256160	Marionette	INFO	Listening on port 56209
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 5168] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1499997540935	geckodriver	INFO	Listening on 127.0.0.1:56369
+1499997542948	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.daKJZp1yYIFa
+1499997542971	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1499997543014	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56375
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1499997544140	Marionette	INFO	Listening on port 56375
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 8140] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1499997900630	geckodriver	INFO	Listening on 127.0.0.1:56544
+1499997902591	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.9c7rRkW52a4t
+1499997902599	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1499997902624	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56552
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1499997903756	Marionette	INFO	Listening on port 56552
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+1499998073963	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 26700] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1500882233856	geckodriver	INFO	Listening on 127.0.0.1:51437
+1500882235853	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.ryrAtfhFUbfk
+1500882235860	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1500882235904	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51443
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1500882237298	Marionette	INFO	Listening on port 51443
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+[Child 3992] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3992] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+	Listening on port 51469
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 10908] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1500882648300	geckodriver	INFO	Listening on 127.0.0.1:55544
+1500882650287	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.eUcRP7dBr0aO
+1500882650297	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1500882650340	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55550
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1500882651428	Marionette	INFO	Listening on port 55550
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+[Child 12376] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12376] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+istening on port 55573
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+[Child 4632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1500882692641	geckodriver	INFO	Listening on 127.0.0.1:55602
+1500882694669	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.8eUD2wW4RK12
+1500882694677	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1500882694704	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55608
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1500882695371	Marionette	INFO	Listening on port 55608
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 12312] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12312] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Connecting to Marionette on localhost:55636
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1500882699415	Marionette	INFO	Listening on port 55636
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1500883047274	geckodriver	INFO	Listening on 127.0.0.1:57124
+1500883049300	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.KmJiFpdYvA2V
+1500883049308	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1500883049336	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57130
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1500883050028	Marionette	INFO	Listening on port 57130
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+kSttZ32KAA
+1500883053300	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1500883053315	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57157
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1500883054036	Marionette	INFO	Listening on port 57157
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 11420] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1500883124770	geckodriver	INFO	Listening on 127.0.0.1:57221
+1500883126812	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.qESgnN38kLPq
+1500883126821	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1500883126850	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57227
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1500883127507	Marionette	INFO	Listening on port 57227
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+[Child 10800] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10800] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+istening on port 57250
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+1500883221352	geckodriver	INFO	Listening on 127.0.0.1:57372
+1500883223403	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.ZhpgGPz6hcao
+1500883223424	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1500883223449	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57381
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1500883224379	Marionette	INFO	Listening on port 57381
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+[Child 12624] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12624] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+istening on port 53431
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+1500883701647	geckodriver	INFO	Listening on 127.0.0.1:57080
+1500883703666	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.zo8ZuwaQlKuf
+1500883703671	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1500883703696	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57086
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1500883704349	Marionette	INFO	Listening on port 57086
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1500883705539	geckodriver	INFO	Listening on 127.0.0.1:57096
+1500883707562	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.EQtwXY2PbQzt
+1500883707567	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1500883707580	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57115
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1500883708271	Marionette	INFO	Listening on port 57115
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 11956] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1500883998945	geckodriver	INFO	Listening on 127.0.0.1:57320
+1500884000968	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.oKEwSlufGQlP
+1500884000975	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1500884001007	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57326
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1500884001669	Marionette	INFO	Listening on port 57326
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 10788] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1501731201308	geckodriver	INFO	Listening on 127.0.0.1:63808
+1501731203339	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.oXIVCr2zbwB0
+1501731203354	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1501731203407	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63814
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1501731204850	Marionette	INFO	Listening on port 63814
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=1450_21119_17001_22075&req=2&csor=6&pwd=selen&cb=jQuery1102005242232093336141_1501731207468&_=1501731207475, line 1: TypeError: jQuery1102005242232093336141_1501731207468 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=1450_21119_17001_22075&req=2&csor=4&pwd=sel&cb=jQuery1102005242232093336141_1501731207468&_=1501731207473, line 1: TypeError: jQuery1102005242232093336141_1501731207468 is not a function
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4A00C2,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+
+1502849067208	geckodriver	INFO	Listening on 127.0.0.1:56830
+1502849069142	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.Qr2CnZ8FhyEd
+1502849069145	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1502849069184	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56838
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1502849070738	Marionette	INFO	Listening on port 56838
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+[Child 5472] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5472] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+O	Connecting to Marionette on localhost:56990
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1502849144089	Marionette	INFO	Listening on port 56990
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+1502849221399	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1502849221403	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1502849221406	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 1648] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1648] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+[Child 11184] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11184] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1502849418798	geckodriver	INFO	Listening on 127.0.0.1:57531
+1502849420756	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.Scz3WJxDFhuo
+1502849420762	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1502849420776	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57539
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1502849421934	Marionette	INFO	Listening on port 57539
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 1688] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1688] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1502849509922	geckodriver	INFO	Listening on 127.0.0.1:57705
+1502849511962	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.hDQYfmFW2Eld
+1502849511969	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1502849511980	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57714
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1502849512719	Marionette	INFO	Listening on port 57714
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=1443_23513_21125&req=2&csor=4&pwd=sel&cb=jQuery110209833991560403293_1502849514471&_=1502849514476, line 1: TypeError: jQuery110209833991560403293_1502849514471 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=1443_23513_21125&req=2&csor=7&pwd=seleni&cb=jQuery110209833991560403293_1502849514471&_=1502849514479, line 1: TypeError: jQuery110209833991560403293_1502849514471 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=1443_23513_21125&req=2&csor=6&pwd=selen&cb=jQuery110209833991560403293_1502849514471&_=1502849514478, line 1: TypeError: jQuery110209833991560403293_1502849514471 is not a function
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+[Child 12436] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12436] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Connecting to Marionette on localhost:58092
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1502849672213	Marionette	INFO	Listening on port 58092
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=1421_21084_18560_17001_20930&req=2&csor=5&pwd=sele&cb=jQuery110208802037393112753_1502849674032&_=1502849674038, line 1: TypeError: jQuery110208802037393112753_1502849674032 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=1421_21084_18560_17001_20930&req=2&csor=6&pwd=selen&cb=jQuery110208802037393112753_1502849674032&_=1502849674039, line 1: TypeError: jQuery110208802037393112753_1502849674032 is not a function
+JavaScript error: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.afb53ff18f093e84a458.js, line 6: SyntaxError: missing = in const declaration
+1502849689727	geckodriver::marionette	ERROR	Failed to kill browser process
+1502849717823	geckodriver	INFO	Listening on 127.0.0.1:58248
+1502849719790	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.gboLeRQf77nT
+1502849719797	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1502849719807	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58256
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1502849720927	Marionette	INFO	Listening on port 58256
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 5376] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1502849725901	geckodriver::marionette	ERROR	Failed to kill browser process
+1508984442112	geckodriver	INFO	Listening on 127.0.0.1:22941
+1508984444155	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.aucUrhGOSvsz
+1508984444164	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1508984444202	geckodriver::marionette	INFO	Connecting to Marionette on localhost:22947
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1508984446148	Marionette	INFO	Listening on port 22947
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+[Child 10020] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1508984495915	geckodriver	INFO	Listening on 127.0.0.1:22994
+1508984497929	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.ocIhNlr86Cev
+1508984497934	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1508984497941	geckodriver::marionette	INFO	Connecting to Marionette on localhost:23001
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1508984498604	Marionette	INFO	Listening on port 23001
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+[Child 11124] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1518617331412	geckodriver	INFO	geckodriver 0.19.1
+1518617331417	geckodriver	INFO	Listening on 127.0.0.1:62528
+1518617939923	geckodriver	INFO	geckodriver 0.19.1
+1518617939928	geckodriver	INFO	Listening on 127.0.0.1:63359

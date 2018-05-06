@@ -1,0 +1,145 @@
+mysql> create database mysql_edrain;
+Query OK, 1 row affected (0.06 sec)
+
+mysql> show database
+    -> 
+
+^C
+mysql> show database;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'database' at line 1
+mysql> show databases
+    -> 
+
+^C
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| mysql_edrain       |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.03 sec)
+
+mysql> use mysql_edrain
+Database changed
+mysql> show tables;
+Empty set (0.00 sec)
+
+mysql> CREATE TABLE emplyee(id int(10),name char(20),phone int(12));mysql> CREATE TABLE employee(id int(10),name char(20),phone int(12))mysql> CREATE TABLE employee(id int(10),name char(20),phone int(12));
+Query OK, 0 rows affected (0.11 sec)
+
+mysql> CREATE TABLE department
+    -> (
+    -> dep_name char(20),
+    -> dep_phone int(12)
+    -> );
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> show tables;
++------------------------+
+| Tables_in_mysql_edrain |
++------------------------+
+| department             |
+| employee               |
++------------------------+
+2 rows in set (0.00 sec)
+
+mysql> SELECT * FROM employee;
+Empty set (0.36 sec)
+
+mysql> INSERT INTO employee(id,name,phone) VALUES(01,'Tom',110110);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> 
+Display all 763 possibilities? (y or n) 
+mysql> INSERT INTO employee VALUES(02,'Jack',112112);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> INSERT INTO employee(id,name) VALUES(03,'Rose');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> show tables;
++------------------------+
+| Tables_in_mysql_edrain |
++------------------------+
+| department             |
+| employee               |
++------------------------+
+2 rows in set (0.00 sec)
+
+mysql> select * from employee
+    -> c
+    -> ^C
+
+^C
+mysql> select * from employee;
++------+------+--------+
+| id   | name | phone  |
++------+------+--------+
+|    1 | Tom  | 110110 |
+|    2 | Jack | 112112 |
+|    3 | Rose |   NULL |
++------+------+--------+
+3 rows in set (0.01 sec)
+
+mysql> insert into employee(id,name,phone) Values(33,'edrain',333333);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> Select * From employee
+    -> ^C
+
+^C
+mysql> select *from employee;
++------+--------+--------+
+| id   | name   | phone  |
++------+--------+--------+
+|    1 | Tom    | 110110 |
+|    2 | Jack   | 112112 |
+|    3 | Rose   |   NULL |
+|   33 | edrain | 333333 |
++------+--------+--------+
+4 rows in set (0.00 sec)
+
+mysql> insert into employee(id,name,phone) Values(44,'wa');
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+mysql> insert into employee(id,name,phone) Values(44,'wa',11);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> Select * From employee;
++------+--------+--------+
+| id   | name   | phone  |
++------+--------+--------+
+|    1 | Tom    | 110110 |
+|    2 | Jack   | 112112 |
+|    3 | Rose   |   NULL |
+|   33 | edrain | 333333 |
+|   44 | wa     |     11 |
++------+--------+--------+
+5 rows in set (0.00 sec)
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| mysql_edrain       |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.01 sec)
+
+mysql> show database;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'database' at line 1
+mysql> show tables;
++------------------------+
+| Tables_in_mysql_edrain |
++------------------------+
+| department             |
+| employee               |
++------------------------+
+2 rows in set (0.00 sec)
+

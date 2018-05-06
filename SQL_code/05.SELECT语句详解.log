@@ -1,0 +1,501 @@
+edrain@ubuntu:~/Desktop$ 
+edrain@ubuntu:~/Desktop$ sudo service mysql start
+[sudo] password for edrain: 
+edrain@ubuntu:~/Desktop$ mysql -u root
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+edrain@ubuntu:~/Desktop$ mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 15
+Server version: 5.7.19-0ubuntu0.16.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2017, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> ^C
+
+^C
+mysql> ^C^C
+
+^C
+mysql> 
+
+^C
+mysql> 
+[1]+  Stopped                 mysql -u root -p
+edrain@ubuntu:~/Desktop$ pwd
+/home/edrain/Desktop
+edrain@ubuntu:~/Desktop$ ll
+total 28
+drwxr-xr-x  7 edrain edrain 4096 Oct 12 02:48 ./
+drwxr-xr-x 18 edrain edrain 4096 Oct 12 02:23 ../
+drwxrwxrwx  3 edrain edrain 4096 Jul 20 02:12 crashlog_20170720_171243.log/
+drwxrwxrwx  4 edrain edrain 4096 Sep 15 01:10 handytools_for_performance/
+drwxrwxrwx  3 edrain edrain 4096 Aug 23 19:35 performance_test/
+drwxrwxrwx  3 edrain edrain 4096 Oct 11 02:58 SQL3/
+drwxrwxrwx  3 edrain edrain 4096 Oct 12 02:48 SQL4/
+edrain@ubuntu:~/Desktop$ cd SQL4
+edrain@ubuntu:~/Desktop/SQL4$ pwd
+/home/edrain/Desktop/SQL4
+edrain@ubuntu:~/Desktop/SQL4$ cd .
+edrain@ubuntu:~/Desktop/SQL4$ cd..
+cd..: command not found
+edrain@ubuntu:~/Desktop/SQL4$ cd ..
+edrain@ubuntu:~/Desktop$ mysql -u root -p
+Enter password: 
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+edrain@ubuntu:~/Desktop$ mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 17
+Server version: 5.7.19-0ubuntu0.16.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2017, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> source /home/edrain/Desktop/SQL4/MySQL-04-01.sql
+ERROR 1007 (HY000): Can't create database 'mysql_shiyan'; database exists
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+ERROR 1050 (42S01): Table 'department' already exists
+ERROR 1050 (42S01): Table 'employee' already exists
+ERROR 1050 (42S01): Table 'project' already exists
+mysql> Drop Databases mysql_shiyan;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Databases mysql_shiyan' at line 1
+mysql> Drop Database mysql_shiyan;
+Query OK, 3 rows affected (0.15 sec)
+
+mysql> source /home/edrain/Desktop/SQL4/MySQL-04-01.sql
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> source /home/edrain/Desktop/SQL4/MySQL-04-02.sql
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+mysql> Select name,age From employee;
++------+------+
+| name | age  |
++------+------+
+| Tom  |   26 |
+| Jack |   24 |
+| Rose |   22 |
+| Jim  |   35 |
+| Mary |   21 |
+| Alex |   26 |
+| Ken  |   27 |
+| Rick |   24 |
+| Joe  |   31 |
+| Mike |   23 |
+| Jobs | NULL |
+| Tony | NULL |
++------+------+
+12 rows in set (0.00 sec)
+
+mysql> Select *  From employee;
++----+------+------+--------+--------+--------+
+| id | name | age  | salary | phone  | in_dpt |
++----+------+------+--------+--------+--------+
+|  1 | Tom  |   26 |   2500 | 119119 | dpt4   |
+|  2 | Jack |   24 |   2500 | 120120 | dpt2   |
+|  3 | Rose |   22 |   2800 | 114114 | dpt3   |
+|  4 | Jim  |   35 |   3000 | 100861 | dpt1   |
+|  5 | Mary |   21 |   3000 | 100101 | dpt2   |
+|  6 | Alex |   26 |   3000 | 123456 | dpt1   |
+|  7 | Ken  |   27 |   3500 | 654321 | dpt1   |
+|  8 | Rick |   24 |   3500 | 987654 | dpt3   |
+|  9 | Joe  |   31 |   3600 | 110129 | dpt2   |
+| 10 | Mike |   23 |   3400 | 110110 | dpt4   |
+| 11 | Jobs | NULL |   3600 |  19283 | dpt2   |
+| 12 | Tony | NULL |   3400 | 102938 | dpt3   |
++----+------+------+--------+--------+--------+
+12 rows in set (0.00 sec)
+
+mysql> Select id  From employee;
++----+
+| id |
++----+
+| 11 |
+|  5 |
+|  4 |
+| 12 |
+| 10 |
+|  9 |
+|  3 |
+|  1 |
+|  2 |
+|  6 |
+|  7 |
+|  8 |
++----+
+12 rows in set (0.00 sec)
+
+mysql> Select name,age From employee Where age > 25;
++------+------+
+| name | age  |
++------+------+
+| Tom  |   26 |
+| Jim  |   35 |
+| Alex |   26 |
+| Ken  |   27 |
+| Joe  |   31 |
++------+------+
+5 rows in set (0.02 sec)
+
+mysql> Select * From employee Where age > 25;
++----+------+------+--------+--------+--------+
+| id | name | age  | salary | phone  | in_dpt |
++----+------+------+--------+--------+--------+
+|  1 | Tom  |   26 |   2500 | 119119 | dpt4   |
+|  4 | Jim  |   35 |   3000 | 100861 | dpt1   |
+|  6 | Alex |   26 |   3000 | 123456 | dpt1   |
+|  7 | Ken  |   27 |   3500 | 654321 | dpt1   |
+|  9 | Joe  |   31 |   3600 | 110129 | dpt2   |
++----+------+------+--------+--------+--------+
+5 rows in set (0.00 sec)
+
+mysql> Select name,age,phone From employee Where name='Mary';
++------+------+--------+
+| name | age  | phone  |
++------+------+--------+
+| Mary |   21 | 100101 |
++------+------+--------+
+1 row in set (0.01 sec)
+
+mysql> Select name,age From employee Where age<25 Or age>30:
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':' at line 1
+mysql> Select name,age From employee Where age<25 Or age>30;
++------+------+
+| name | age  |
++------+------+
+| Jack |   24 |
+| Rose |   22 |
+| Jim  |   35 |
+| Mary |   21 |
+| Rick |   24 |
+| Joe  |   31 |
+| Mike |   23 |
++------+------+
+7 rows in set (0.00 sec)
+
+mysql> Select name,age From employee Where age<25 And age>30;
+Empty set (0.00 sec)
+
+mysql> Select name,age From employee Where age>25 And age>30;
++------+------+
+| name | age  |
++------+------+
+| Jim  |   35 |
+| Joe  |   31 |
++------+------+
+2 rows in set (0.00 sec)
+
+mysql> Select name,age From employee Where age>25 And age<30;
++------+------+
+| name | age  |
++------+------+
+| Tom  |   26 |
+| Alex |   26 |
+| Ken  |   27 |
++------+------+
+3 rows in set (0.00 sec)
+
+mysql> Select name,age From employee Where age Between 25 And 30;
++------+------+
+| name | age  |
++------+------+
+| Tom  |   26 |
+| Alex |   26 |
+| Ken  |   27 |
++------+------+
+3 rows in set (0.02 sec)
+
+mysql> Select * from employee;
++----+------+------+--------+--------+--------+
+| id | name | age  | salary | phone  | in_dpt |
++----+------+------+--------+--------+--------+
+|  1 | Tom  |   26 |   2500 | 119119 | dpt4   |
+|  2 | Jack |   24 |   2500 | 120120 | dpt2   |
+|  3 | Rose |   22 |   2800 | 114114 | dpt3   |
+|  4 | Jim  |   35 |   3000 | 100861 | dpt1   |
+|  5 | Mary |   21 |   3000 | 100101 | dpt2   |
+|  6 | Alex |   26 |   3000 | 123456 | dpt1   |
+|  7 | Ken  |   27 |   3500 | 654321 | dpt1   |
+|  8 | Rick |   24 |   3500 | 987654 | dpt3   |
+|  9 | Joe  |   31 |   3600 | 110129 | dpt2   |
+| 10 | Mike |   23 |   3400 | 110110 | dpt4   |
+| 11 | Jobs | NULL |   3600 |  19283 | dpt2   |
+| 12 | Tony | NULL |   3400 | 102938 | dpt3   |
++----+------+------+--------+--------+--------+
+12 rows in set (0.00 sec)
+
+mysql> Select name,age,phone,in_dpt From employee Where in_dpt In('dpt3','dpt4'); 
++------+------+--------+--------+
+| name | age  | phone  | in_dpt |
++------+------+--------+--------+
+| Tom  |   26 | 119119 | dpt4   |
+| Rose |   22 | 114114 | dpt3   |
+| Rick |   24 | 987654 | dpt3   |
+| Mike |   23 | 110110 | dpt4   |
+| Tony | NULL | 102938 | dpt3   |
++------+------+--------+--------+
+5 rows in set (0.00 sec)
+
+mysql> Select name,age,phone,in_dpt From employee Where in_dpt In('dpt3','dpt4');mysql> Select name,age,phone,in_dpt From employee Where in_dpt In('dpt3','dp4'); mysql> Select name,age,phone,in_dpt From employee Where age In('24');
++------+------+--------+--------+
+| name | age  | phone  | in_dpt |
++------+------+--------+--------+
+| Jack |   24 | 120120 | dpt2   |
+| Rick |   24 | 987654 | dpt3   |
++------+------+--------+--------+
+2 rows in set (0.00 sec)
+
+mysql> Select name,age,phone,in_dpt From employee Where age NOT In('24');
++------+------+--------+--------+
+| name | age  | phone  | in_dpt |
++------+------+--------+--------+
+| Tom  |   26 | 119119 | dpt4   |
+| Rose |   22 | 114114 | dpt3   |
+| Jim  |   35 | 100861 | dpt1   |
+| Mary |   21 | 100101 | dpt2   |
+| Alex |   26 | 123456 | dpt1   |
+| Ken  |   27 | 654321 | dpt1   |
+| Joe  |   31 | 110129 | dpt2   |
+| Mike |   23 | 110110 | dpt4   |
++------+------+--------+--------+
+8 rows in set (0.00 sec)
+
+mysql> Select name,age,phone,in_dpt From employee Where in_dpt NOT In('dpt1','d);mysql> Select name,age,phone,in_dpt From employee Where in_dpt NOT In('dpt1','dp)mysql> Select name,age,phone,in_dpt From employee Where in_dpt NOT In('dpt1','dpt3');
++------+------+--------+--------+
+| name | age  | phone  | in_dpt |
++------+------+--------+--------+
+| Tom  |   26 | 119119 | dpt4   |
+| Jack |   24 | 120120 | dpt2   |
+| Mary |   21 | 100101 | dpt2   |
+| Joe  |   31 | 110129 | dpt2   |
+| Mike |   23 | 110110 | dpt4   |
+| Jobs | NULL |  19283 | dpt2   |
++------+------+--------+--------+
+6 rows in set (0.00 sec)
+
+mysql> Select name,age,phone,in_dpt From employee Where in_dpt NOT In('dpt1','dptmysql> Select name,age,phone,in_dpt From employee Where in_dpt NOTIn('dpt1','dpt3mysql> Select name,age,phone,in_dpt From employee Where in_dpt NOIn('dpt1','dpt3'mysql> Select name,age,phone,in_dpt From employee Where in_dpt NIn('dpt1','dpt3')mysql> Select name,age,phone,in_dpt From employee Where in_dpt In('dpt1','dpt3');mysql> Select name,age,phone,in_dpt From employee Where in_dpt In('dpt1','dpt3'); 
++------+------+--------+--------+
+| name | age  | phone  | in_dpt |
++------+------+--------+--------+
+| Rose |   22 | 114114 | dpt3   |
+| Jim  |   35 | 100861 | dpt1   |
+| Alex |   26 | 123456 | dpt1   |
+| Ken  |   27 | 654321 | dpt1   |
+| Rick |   24 | 987654 | dpt3   |
+| Tony | NULL | 102938 | dpt3   |
++------+------+--------+--------+
+6 rows in set (0.00 sec)
+
+mysql> Select name,age,phone,in_dpt From employee Where in_dpt In('dpt1','dpt3');mysql> Select name,age,phone,in_dpt From employee Where in_dpt In('dpt1','dpt3'; mysql> Select name,age,phone,in_dpt From employee ;
++------+------+--------+--------+
+| name | age  | phone  | in_dpt |
++------+------+--------+--------+
+| Tom  |   26 | 119119 | dpt4   |
+| Jack |   24 | 120120 | dpt2   |
+| Rose |   22 | 114114 | dpt3   |
+| Jim  |   35 | 100861 | dpt1   |
+| Mary |   21 | 100101 | dpt2   |
+| Alex |   26 | 123456 | dpt1   |
+| Ken  |   27 | 654321 | dpt1   |
+| Rick |   24 | 987654 | dpt3   |
+| Joe  |   31 | 110129 | dpt2   |
+| Mike |   23 | 110110 | dpt4   |
+| Jobs | NULL |  19283 | dpt2   |
+| Tony | NULL | 102938 | dpt3   |
++------+------+--------+--------+
+12 rows in set (0.00 sec)
+
+mysql> Select name,age,phone From employee Where phone Like '110__';
+Empty set (0.00 sec)
+
+mysql> Select name,age,phone From employee Where phone Like '110___';
++------+------+--------+
+| name | age  | phone  |
++------+------+--------+
+| Joe  |   31 | 110129 |
+| Mike |   23 | 110110 |
++------+------+--------+
+2 rows in set (0.00 sec)
+
+mysql> Select name,age,phone From employee Where phone Like '1101__';
++------+------+--------+
+| name | age  | phone  |
++------+------+--------+
+| Joe  |   31 | 110129 |
+| Mike |   23 | 110110 |
++------+------+--------+
+2 rows in set (0.00 sec)
+
+mysql> Select name,age,phone From employee Where name like 'J%';
++------+------+--------+
+| name | age  | phone  |
++------+------+--------+
+| Jack |   24 | 120120 |
+| Jim  |   35 | 100861 |
+| Joe  |   31 | 110129 |
+| Jobs | NULL |  19283 |
++------+------+--------+
+4 rows in set (0.00 sec)
+
+mysql> Select name,age,phone From employee Where name like '%M';
++------+------+--------+
+| name | age  | phone  |
++------+------+--------+
+| Tom  |   26 | 119119 |
+| Jim  |   35 | 100861 |
++------+------+--------+
+2 rows in set (0.00 sec)
+
+mysql> Select name,age,phone From employee Where name like 'M%';
++------+------+--------+
+| name | age  | phone  |
++------+------+--------+
+| Mary |   21 | 100101 |
+| Mike |   23 | 110110 |
++------+------+--------+
+2 rows in set (0.00 sec)
+
+mysql> Select name,age,phone From employee Where name like '%M%';
++------+------+--------+
+| name | age  | phone  |
++------+------+--------+
+| Tom  |   26 | 119119 |
+| Jim  |   35 | 100861 |
+| Mary |   21 | 100101 |
+| Mike |   23 | 110110 |
++------+------+--------+
+4 rows in set (0.00 sec)
+
+mysql> Select * from employee where Order By salary DESC;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order By salary DESC' at line 1
+mysql> Select salary from employee where Order By salary DESC;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order By salary DESC' at line 1
+mysql> Select name,salary from employee where Order By salary DESC;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Order By salary DESC' at line 1
+mysql> Select name,salary from employee Order by salary DESC;
++------+--------+
+| name | salary |
++------+--------+
+| Joe  |   3600 |
+| Jobs |   3600 |
+| Ken  |   3500 |
+| Rick |   3500 |
+| Mike |   3400 |
+| Tony |   3400 |
+| Jim  |   3000 |
+| Mary |   3000 |
+| Alex |   3000 |
+| Rose |   2800 |
+| Tom  |   2500 |
+| Jack |   2500 |
++------+--------+
+12 rows in set (0.01 sec)
+
+mysql> Select * from employee Order by salary DESC;
++----+------+------+--------+--------+--------+
+| id | name | age  | salary | phone  | in_dpt |
++----+------+------+--------+--------+--------+
+|  9 | Joe  |   31 |   3600 | 110129 | dpt2   |
+| 11 | Jobs | NULL |   3600 |  19283 | dpt2   |
+|  7 | Ken  |   27 |   3500 | 654321 | dpt1   |
+|  8 | Rick |   24 |   3500 | 987654 | dpt3   |
+| 10 | Mike |   23 |   3400 | 110110 | dpt4   |
+| 12 | Tony | NULL |   3400 | 102938 | dpt3   |
+|  4 | Jim  |   35 |   3000 | 100861 | dpt1   |
+|  5 | Mary |   21 |   3000 | 100101 | dpt2   |
+|  6 | Alex |   26 |   3000 | 123456 | dpt1   |
+|  3 | Rose |   22 |   2800 | 114114 | dpt3   |
+|  1 | Tom  |   26 |   2500 | 119119 | dpt4   |
+|  2 | Jack |   24 |   2500 | 120120 | dpt2   |
++----+------+------+--------+--------+--------+
+12 rows in set (0.00 sec)
+
+mysql> Select Max(salary) As max_salary, Min(salary) From employee;
++------------+-------------+
+| max_salary | Min(salary) |
++------------+-------------+
+|       3600 |        2500 |
++------------+-------------+
+1 row in set (0.00 sec)
+
+mysql> Select Count(salary) As max_salary, Min(salary) From employee;
++------------+-------------+
+| max_salary | Min(salary) |
++------------+-------------+
+|         12 |        2500 |
++------------+-------------+
+1 row in set (0.00 sec)
+
+mysql> 
+mysql> Select of_dpt,Count(proj_name) As count_project From project Where of_dpt In (select in_dpt From employee Where name='Tom');
+ERROR 1140 (42000): In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'mysql_shiyan.project.of_dpt'; this is incompatible with sql_mode=only_full_group_by
+mysql> Select of_dpt,Count(proj_name) As count_project From project Where of_dpt In (s
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+mysql> Select of_dpt,Count(proj_name) As count_project From project Where of_dpt In select in_dpt From employee Where name='Tom';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select in_dpt From employee Where name='Tom'' at line 1

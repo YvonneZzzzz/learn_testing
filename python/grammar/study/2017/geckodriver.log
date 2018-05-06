@@ -1,0 +1,30 @@
+1512369438763	geckodriver	INFO	Listening on 127.0.0.1:59704
+1512369440726	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.vB54Hy2IW1qH
+1512369440731	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1512369440739	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59714
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1512369442663	Marionette	INFO	Listening on port 59714
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 6516] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6516] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+O	Connecting to Marionette on localhost:59748
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1512369448817	Marionette	INFO	Listening on port 59748
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 17612] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512369691367	geckodriver	INFO	Listening on 127.0.0.1:60198
+1512369693359	mozprofile::profile	INFO	Using profile path C:\Users\a\AppData\Local\Temp\rust_mozprofile.QM3FecedoHq6
+1512369693365	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1512369693374	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60209
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1512369694344	Marionette	INFO	Listening on port 60209
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 18216] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+YdoMdPNj
+1512369697556	geckodriver::marionette	INFO	Starting browser E:\firefox-50.0.1.win64.sdk\firefox-sdk\bin\firefox.exe
+1512369697563	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60240
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1512369698197	Marionette	INFO	Listening on port 60240
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 18404] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18404] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

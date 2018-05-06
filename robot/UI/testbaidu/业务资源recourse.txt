@@ -1,0 +1,10 @@
+*** Keywords ***
+百度搜索
+    [Arguments]    ${search_key}    ${result}
+    Open Browser    http://www.baidu.com    IE
+    Input Text    id=kw    ${search_key}
+    Click Element    id=su
+    sleep    1
+    ${title}    get title
+    Should Contain    ${title}    ${result}
+    close Browser

@@ -1,0 +1,1 @@
+print('hello wolrd')def normalize(name):    #captilaze 首字母大写    return name.capitalize()L1 = ['admin', 'LISA', 'barT']    #需要了解 map 的用法L2 = list(map(normalize,L1))print(L2)print('L2')def norma(na):    return na.captitalize()L3 = ['aaa','Acd']L4 =map(norma,L1)print(L4)

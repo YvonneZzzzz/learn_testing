@@ -1,0 +1,42 @@
+*** Settings ***
+Documentation     This is documentation about suite.
+...               1 line
+...               2 line
+Force Tags        suite force tag
+Default Tags      suite default
+Resource          业务资源recourse.txt
+Library           F:/Python27/Lib/site-packages/Selenium2Library
+
+*** Test Cases ***
+baidu01
+    Open Browser    http://www.baidu.com    chrome
+    百度搜索    root    boot
+    Close Browser
+
+baidu02
+    [Tags]    case02 tag
+    Open Browser    http://www.baidu.com    chrome
+    Input Text    id=kw    framework
+    Click Element    id=su
+    sleep    1
+    ${title}    get title
+    Should Contain    ${title}    robot
+    Close Browser
+
+baidu03
+    Open Browser    http://www.baidu.com    chrome
+    Input Text    id=kw    robot framework
+    Click Element    id=su
+    sleep    1
+    ${title}    get title
+    Should Contain    ${title}    robot
+    Close Browser
+
+baidu04
+    百度搜索    root    boot
+
+baidu05
+    百度搜索    robot    boot
+
+baidu06
+    百度搜索    edrain    boot

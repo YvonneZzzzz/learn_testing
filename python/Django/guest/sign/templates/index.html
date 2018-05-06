@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django Page</title>
+</head>
+<body>
+    <h1>Edrain发布会管理</h1>
+
+    <!-- GET 请求 -->
+    <!-- <form method="get">
+        <input name="username" type="text" placeholder="usename" ><br>
+        <input name="password" type="password" placeholder="password" ><br>
+        <button id="btn" type="submit">登陆喔</button>
+    </form> -->
+
+    <!-- POST 请求 -->
+    <form method="post" action="/login_action/">
+        <input name="username" type="text" placeholder="username"><br>
+        <input name="password" type="password" placeholder="password"><br>
+        {{error}}<br>   <!-- sign/views/下 返回｛error｝显示的位置 -->
+        <button id="btn" type="submit">登陆</button>
+        {% csrf_token %}    <!--添加csrf令牌，可在guest/setting下注释掉-->
+     </form> 
+
+</body>
+</html>

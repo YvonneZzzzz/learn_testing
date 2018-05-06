@@ -1,0 +1,7 @@
+bat运行脚本
+
+rem %~dp0python.exe
+rem %~dp0wechat.py
+rem @pause
+
+python punch out.py
