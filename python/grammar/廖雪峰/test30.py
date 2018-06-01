@@ -37,9 +37,9 @@ print(l)
 t = os.path.splitext(name)
 print(t)
 # 重命名
-# os.rename('test.txt', 'test.md')
+# os.rename('test.txt', 'test.(01)github上传时出现error.md')
 # 删除文件
-# os.remove('test.md')
+# os.remove('test.(01)github上传时出现error.md')
 # 找出目标路径是目录的名字
 d = [x for x in os.listdir(r'E:\anaconda\python_project') if not os.path.isdir(x)]
 print(d)
