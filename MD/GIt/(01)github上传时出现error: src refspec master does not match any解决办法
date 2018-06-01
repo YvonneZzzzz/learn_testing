@@ -1,4 +1,3 @@
-# (01)github上传时出现error: src refspec master does not match any解决办法
 
 在一台未部署git的电脑上，上传（push）代码的步骤：
 （这个办法一定很笨，但是这是目前我实践成功的方法。希望之后能发现聪明的解法吧）
