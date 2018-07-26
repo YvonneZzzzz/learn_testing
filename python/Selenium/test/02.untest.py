@@ -35,6 +35,7 @@ class unitTest01(unittest.TestCase):
         driver.execute_script("window.scrollTo(0, 10000);")
         sleep(3)
 
+
     # def swipeDown(driver, t=500, n=1):
     #     '''向下滑动屏幕'''
     #     l = driver.get_window_size()
