@@ -5,7 +5,7 @@ from time import sleep
 from selenium.webdriver import TouchActions
 from selenium.webdriver.common.touch_actions import TouchActions
 from selenium.webdriver.common.keys import Keys
-from mymodule.module import diaoyong
+from mymodule.module import DiaoYong
 # from mymodule import module
 
 class unitTest01(unittest.TestCase):
@@ -50,7 +50,7 @@ class unitTest01(unittest.TestCase):
         # mymodule().swipeDown("//*[@id='kw']")
         # diaoyong=module.diaoyong(driver)
         # diaoyong.swipeDown('//*[@id="1"]/h3/a/em[2]')
-        sd = diaoyong(driver)
+        sd = DiaoYong(driver)
         sd.swipeDown('//*[@id="1"]/h3/a/em[2]')
         # swipeDown("//*[@id='kw']")
 

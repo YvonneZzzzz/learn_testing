@@ -67,7 +67,7 @@ module.py
 ```python
 from time import sleep
 
-class diaoyong(object):
+class DiaoYong(object):
     """这是某些方法的调用"""
 
     def __init__(self, driver):
@@ -98,7 +98,7 @@ from selenium import webdriver
 import unittest
 from time import sleep
 
-from mymodule.module import diaoyong
+from mymodule.module import DiaoYong
 
 class unitTest01(unittest.TestCase):  #unitTest01继承unittest.TestCase
 
@@ -124,7 +124,7 @@ class unitTest01(unittest.TestCase):  #unitTest01继承unittest.TestCase
         driver.get(self.base_url + "/")
         driver.find_element_by_id("kw").send_keys("selenium webdriver")
         driver.find_element_by_id("su").click()
-        sd = diaoyong(driver)  #调用前将对象实例化；这个地方传入的是driver，跟前面modle里面diaoyong对应
+        sd = DiaoYong(driver)  #调用前将对象实例化；这个地方传入的是driver，跟前面modle里面diaoyong对应
         sd.swipeDown('//*[@id="1"]/h3/a/em[2]')
 
 

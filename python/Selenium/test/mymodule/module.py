@@ -22,7 +22,7 @@ from selenium.webdriver import TouchActions
 #     Action.scroll_from_element(button, 0, -200).perform()
 #     sleep(3)
 
-class diaoyong(object):
+class DiaoYong(object):
     """这是某些方法的调用"""
 
     def __init__(self, driver):
