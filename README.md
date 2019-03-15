@@ -1,3 +1,10 @@
-# which reademe is correct？
+# 为什么要用Git呢？
+1. 写了的代码丢了就很可惜吧(哪怕它很烂)；
+2. 看一下自己到底会写些什么吧(哪怕只是hello world)；
+3. 自己写的东西总归是要整理一下的吧（哪怕自己都看不啷个懂）；
+4. 找了那么些内容学习或许是有进步的愉悦吧(哪怕不久就忘，一敲就旷)；
 
-[There is a link about how to write .md](https://github.com/DavidAnson/markdownlint/blob/v0.7.0/doc/Rules.md#md041)
+可是吼
+有些事总还是要试试才知道~~~
+
+
